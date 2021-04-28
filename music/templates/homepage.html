@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block container %}
+<div>
+  <h1>Phonic</h1>
+  <small>
+    <i>
+      A Flask API that simulates an audio file server while using a SQL
+      database.</i
+    >
+  </small>
+  <div>
+    <a href="{{ url_for('audio.docs')}}">
+      <br />
+      <button
+        style="
+          position: relative;
+          justify-items: center;
+          background: cadetblue;
+          color: black;
+          padding: 0.5rem;
+          border-radius: 5px;
+          border: 1px solid;
+          font-weight: bold;
+          margin: 1rem;
+          cursor: pointer;
+        "
+      >
+        API Usage Guide
+      </button>
+    </a>
+  </div>
+</div>
+
+{% endblock %}

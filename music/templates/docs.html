@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block container %}
+<div>
+  <h2>API Usage Guide</h2>
+  <br />
+  <br />
+  <ul>
+    <li><b>API Endpoint: </b> /api/audioFileType/audioFileID</li>
+    <li><b>audioFileType: </b>song or podcast or audiobook</li>
+    <li><b>audioFileID: </b>Integer</li>
+    <li><b>Methods: </b>GET, POST, DELETE, and PUT</li>
+  </ul>
+  <div>
+    <a href="https://github.com/abhijitpai000/phonic">
+      <br />
+      <button
+        style="
+          position: relative;
+          justify-items: center;
+          background: cadetblue;
+          color: black;
+          padding: 0.5rem;
+          border-radius: 5px;
+          border: 1px solid;
+          font-weight: bold;
+          margin: 1rem;
+          cursor: pointer;
+        "
+      >
+        Source Code (Github)
+      </button>
+    </a>
+  </div>
+</div>
+
+{% endblock %}
